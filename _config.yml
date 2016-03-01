@@ -17,3 +17,9 @@ github_username:  nevercry
 
 # Build settings
 markdown: kramdown
+
+
+pages_list:       
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/atom.xml'
