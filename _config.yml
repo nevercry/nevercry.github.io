@@ -22,4 +22,4 @@ markdown: kramdown
 pages_list:       
   About: '/about'
   Archive: '/archive'
-  Feed: '/atom.xml'
+  Feed: '/feed.xml'
