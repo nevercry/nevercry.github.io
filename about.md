@@ -1,16 +1,30 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
 
-En:
-I am an iOS developer, my first app is [Pings](https://itun.es/i6S57tp) .
-Living in Nanjing, China. 
+<p class="message">
+  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+</p>
 
+In the novel, *The Strange Case of Dr. Jekyll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
 
+There are currently two themes built on Poole:
 
-中文:
-自学了很多年iOS开发，我第一款上架的App是 [Pings](https://itun.es/i6S57tp)。生活在旧都南京。
-喜欢主机游戏，打麻将，玩桌游(不喜欢三国杀，主要玩[星杯传说](http://baike.baidu.com/view/4346693.htm))。
-目前在学的东西有(Swift, NodeJS, JavaScript等等)，很想成为一名合格的前后端工程师，自己动手，丰衣足食。
+* [Hyde](http://hyde.getpoole.com)
+* [Lanyon](http://lanyon.getpoole.com)
+
+Learn more and contribute on [GitHub](https://github.com/poole).
+
+## Setup
+
+Some fun facts about the setup of this project include:
+
+* Built for [Jekyll](http://jekyllrb.com)
+* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
+* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
+* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+
+Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+
+Thanks for reading!
