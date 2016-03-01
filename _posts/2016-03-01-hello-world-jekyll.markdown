@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hello World to Jekyll!"
+title:  Hello World to Jekyll!
 comments: true
 ---
 
