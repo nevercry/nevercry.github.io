@@ -15,6 +15,10 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: nevercry
 github_username:  nevercry
 
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
 # Dependencies
 markdown:         redcarpet
 highlighter:      pygments
