@@ -19,7 +19,7 @@ email: ysfnevercry@gmail.com
 description: 'my blog'
 
 url: https://nevercry.github.io
-baseurl: https://nevercry.github.io 
+baseurl: https://nevercry.github.io/ 
 
 author:
   name:           'nevercry'
