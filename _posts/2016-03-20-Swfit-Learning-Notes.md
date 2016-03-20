@@ -27,7 +27,7 @@ comments: true
 
 其中:
 ```swift
- public internal(set) var JSONDictionary: [String : AnyObject] = [:]
+public internal(set) var JSONDictionary: [String : AnyObject] = [:]
 ```
 
 书上是这样定义的：
