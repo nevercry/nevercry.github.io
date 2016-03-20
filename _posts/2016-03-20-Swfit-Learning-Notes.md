@@ -48,4 +48,4 @@ public final class Map {
 ```swift
 public internal(set) var someproperty
 ```
-通过`internal(set)`把Setter的访问权限设置成`internal`级别，就可以保护Setter 不内公开出去。
+通过`internal(set)`把Setter的访问权限设置成`internal`级别，就可以保护Setter 不被公开出去。
