@@ -5,29 +5,32 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
 # Site settings
 title: nevercry's blog
 email: ysfnevercry@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: / # the subpath of your site, e.g. /blog
+url: http://yourdomain.com # the base hostname & protocol for your site
+
+author:
+  name:           'nevercry'
+  url:            https://twitter.com/nevercry
+
+
 twitter_username: nevercry
 github_username:  nevercry
 
-# Permalinks
-permalink:        pretty
-relative_permalinks: true
+
 
 # Dependencies
 markdown:         redcarpet
 highlighter:      pygments
 
-
-pages_list:       
-  About: '/about'
-  Archive: '/archive'
-  Feed: '/feed.xml'
 
 paginate: 5
 
