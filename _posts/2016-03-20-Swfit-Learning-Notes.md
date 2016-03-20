@@ -24,21 +24,21 @@ comments: true
  -}  
  +}
 ```
- 
- 其中:
- ```swift
+
+其中:
+```swift
  public internal(set) var JSONDictionary: [String : AnyObject] = [:]
- ```
- 
- 书上是这样定义的：
- 
+```
+
+书上是这样定义的：
+
 >+ *Public* access enables entities to be used within any source file from their defining module, and also in a source file from another module that imports the defining module. You typically use public access when specifying the public interface to a framework.
 
 >+ *Internal* access enables entities to be used within any source file from their defining module, but not in any source file outside of that module. You typically use internal access when defining an app’s or a framework’s internal structure.
 
 >+ *Private* access restricts the use of an entity to its own defining source file. Use private access to hide the implementation details of a specific piece of functionality.
 
-*Getters and Setters*
+Getters and Setters
 
 >Getters and setters for constants, variables, properties, and subscripts automatically receive the same access level as the constant, variable, property, or subscript they belong to.
 
@@ -46,6 +46,7 @@ comments: true
 
 
 大概的意思就是如果要公开Getter方法给别人,可以这样定义API 
+
 ```swift
 public internal(set) var someproperty
 ```
