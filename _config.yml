@@ -16,7 +16,8 @@ twitter_username: nevercry
 github_username:  nevercry
 
 # Build settings
-markdown: kramdown
+markdown:         redcarpet
+highlighter:      pygments
 
 
 pages_list:       
