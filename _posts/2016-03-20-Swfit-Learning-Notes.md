@@ -6,7 +6,7 @@ comments: true
 
 看了下别人的源码，发现有一个这样的写法我不大熟悉，原来是Swift中的[Access Control](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/AccessControl.html)。
 
-```
+```swift
 public final class Map {
   	public let mappingType: MappingType
   	
@@ -28,12 +28,12 @@ public final class Map {
  `public internal(set) var JSONDictionary: [String : AnyObject] = [:]`
  
  书上是这样定义的：
+ 
 > + **Public** access enables entities to be used within any source file from their defining module, and also in a source file from another module that imports the defining module. You typically use public access when specifying the public interface to a framework.
 
 > + **Internal** access enables entities to be used within any source file from their defining module, but not in any source file outside of that module. You typically use internal access when defining an app’s or a framework’s internal structure.
 
 > + **Private** access restricts the use of an entity to its own defining source file. Use private access to hide the implementation details of a specific piece of functionality.
-
 
 *Getters and Setters*
 
@@ -44,4 +44,5 @@ public final class Map {
 
 大概的意思就是如果要公开Getter方法给别人,可以这样定义API 
 `public internal(set) var someproperty`
+
 通过`internal(set)`把Setter的访问权限设置成`internal`级别，就可以保护Setter 不被公开出去。
