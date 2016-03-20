@@ -9,6 +9,10 @@
 permalink:        pretty
 relative_permalinks: true
 
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
 # Site settings
 title: nevercry's blog
 email: ysfnevercry@gmail.com
@@ -27,11 +31,4 @@ github_username:  nevercry
 
 
 
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
-
-
 paginate: 5
-
-paginate_path: "/blog/page:num/"
